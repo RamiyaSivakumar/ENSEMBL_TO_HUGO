@@ -2,7 +2,7 @@
 
 The aim of this program is to convert a comma delimited file that cotains the gene ID in the ENSEMBL format to the HUGO format. 
 
-##Installation of Required Data Sets: 
+## Installation of Required Data Sets: 
 
 This program requires two data sets. 
 The first being the Homo_sapiens.GRCh37.75.gtf file found on the link: http://ftp.ensembl.org/pub/release-75/gtf/homo_sapiens 
@@ -22,7 +22,7 @@ git clone https://raw.githubusercontent.com/davcraig75/unit/master/expres.anal.c
 ```
   The data will be saved as a file within a directory called 'unit' 
   
-##Understanding the Script:
+## Understanding the Script:
 First, the required function modules are called upon in the header of the script. The file that is utilized as a library is called in the first argument and a for loop is used to iterate through the lines of the file.
 ```
 import sys
