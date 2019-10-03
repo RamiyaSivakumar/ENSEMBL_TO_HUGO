@@ -6,7 +6,7 @@ import re
 import json
 
 
-my_file=sys.argv[1]
+my_file=([Homo_sapiens.GRCh37.75.gtf])
 
 Lookup_geneID={}
 for each_line_of_text in fileinput.input(my_file):
